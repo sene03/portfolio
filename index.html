@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Italianno&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <span id="name" style="font-size: 2em">Nam Inseo</span>
+      <nav>
+        <a href="#about">About me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <div class="button">Contact me</div>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <span id="name" style="font-size: 3em">Nam Inseo</span>
+        <div style="display: flex">
+          <div>
+            <h1>Developer who loves to build stuff</h1>
+            <p>
+              Frontend Developer with a passion for creating beautiful and
+              functional user interfaces. Skilled in HTML, CSS, JavaScript, and
+              modern frameworks like React and Vue.js.
+            </p>
+            <div
+              class="buttons"
+              style="display: flex; margin-top: 2em; gap: 10px"
+            >
+              <div class="button">Contact me</div>
+              <div class="button" style="color: black; background-color: white">
+                View projects
+              </div>
+              <a href="https://www.github.com/sene03">
+                <img
+                  style="width: 40px; height: 40px"
+                  src="images/github.png"
+                  alt="github"
+                />
+              </a>
+            </div>
+          </div>
+          <img
+            src="images/profile.jpg"
+            style="width: 400px; height: 300px"
+            alt="Profile Picture"
+          />
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <span class="section-title">PORTFOLIO</span>
+        <h1>Discover what I've built</h1>
+        <div class="projects">
+          <!-- horizontal scroll -->
+          <div class="project">
+            <img src="images/computer.jpg" alt="Project 1" />
+            <h3>Project One</h3>
+            <p>
+              A web application that allows users to track their tasks and
+              manage time effectively.
+            </p>
+          </div>
+          <div class="project">
+            <img src="images/computer.jpg" alt="Project 2" />
+            <h3>Project Two</h3>
+            <p>
+              An e-commerce platform with a seamless shopping experience and
+              secure payment options.
+            </p>
+          </div>
+          <div class="project">
+            <img src="images/computer.jpg" alt="Project 3" />
+            <h3>Project Three</h3>
+            <p>
+              A social media app that connects people with similar interests and
+              hobbies.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog">
+        <span class="section-title">BLOG</span>
+        <h1>Tech thoughts</h1>
+        <div class="blog-posts">
+          <!-- grid layout -->
+          <a class="post" href="#">
+            <h3>Understanding Asynchronous JavaScript</h3>
+            <div class="thumb">
+              <img src="images/async-js.png" alt="Asynchronous JavaScript" />
+            </div>
+            <p>A deep dive into callbacks, promises, and async/await.</p>
+          </a>
+          <a class="post" href="#">
+            <h3>CSS Grid vs. Flexbox: When to Use Which</h3>
+            <div class="thumb">
+              <img src="images/css-layout.png" alt="CSS Layouts" />
+            </div>
+            <p>
+              An overview of CSS layout techniques and their best use cases.
+            </p>
+          </a>
+          <a class="post" href="#">
+            <h3>Getting Started with React Hooks</h3>
+            <div class="thumb">
+              <img src="images/react-hooks.png" alt="React Hooks" />
+            </div>
+            <p>
+              A beginner's guide to using hooks in React for state and side
+              effects.
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>&copy; 2024 Nam Inseo. All rights reserved.</span>
+    </footer>
+  </body>
+</html>
