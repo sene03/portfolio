@@ -60,7 +60,7 @@ nav {
 main {
   width: 60%;
   margin: auto;
-  padding-top: 10em;
+  margin-top: -20em;
 }
 
 h1 {
@@ -75,11 +75,15 @@ h1 {
    Sections
 ========================= */
 section {
-  margin: 0 0 40em 0;
+  margin: 20em 0;;
 }
 
 .section-title {
   color: gray;
+}
+
+#about-content {
+  display: flex;
 }
 
 /* =========================
@@ -169,7 +173,7 @@ footer {
   }
 
   nav {
-    gap: 18px;
+    display:none;
   }
 
   main {
@@ -179,6 +183,11 @@ footer {
 
   section {
     margin-bottom: 30em;
+  }
+
+  #about-content {
+    flex-direction: column;
+    gap: 20px;
   }
 
   .projects {
@@ -213,7 +222,7 @@ footer {
   }
 
   nav {
-    gap: 14px;
+    display:none;
   }
 
   main {
@@ -229,6 +238,11 @@ footer {
 
   section {
     margin-bottom: 20em;
+  }
+  
+  #about-content {
+    flex-direction: column;
+    gap: 20px;
   }
 
   .projects {
